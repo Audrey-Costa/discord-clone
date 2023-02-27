@@ -10,13 +10,21 @@ export const Button = styled.button<Props>`
   height: 48px;
   border-radius: 50%;
   margin-bottom: 8px;
-  background-color: ${(props) => props.isHome ? 'var(--rocketseat)': 'var(--primary)'};
+  background-color: var(--primary);
   cursor: pointer;
   position: relative;
 
+  > svg {
+    color: white;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+  }
+  
   > img {
-    width: 28px;
-    height: 28px;
+    color: white;
+    width: 48px;
+    height: 48px;
     border-radius: 50%;
   }
 

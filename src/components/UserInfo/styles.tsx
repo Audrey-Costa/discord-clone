@@ -26,7 +26,7 @@ export const Icons = styled.div`
   }
 `;
 
-export const Avatar = styled.div`
+export const Avatar = styled.img`
   width: 32px;
   height: 32px;
   border-radius: 50%;
