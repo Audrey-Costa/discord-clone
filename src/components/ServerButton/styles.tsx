@@ -34,7 +34,7 @@ export const Button = styled.button<Props>`
     position: absolute;
     left: -17px;
     top: calc(50% - 4.5px);
-    background-color: var(--white);
+    background-color: white;
     border-radius: 50%;
 
     content: '';
